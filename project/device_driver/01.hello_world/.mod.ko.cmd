@@ -1,0 +1,1 @@
+cmd_/home/pi/project/device_driver/01.hello_world/mod.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/project/device_driver/01.hello_world/mod.ko /home/pi/project/device_driver/01.hello_world/mod.o /home/pi/project/device_driver/01.hello_world/mod.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/pi/gpioirq/gpioirq_module.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/gpioirq/gpioirq_module.ko /home/pi/gpioirq/gpioirq_module.o /home/pi/gpioirq/gpioirq_module.mod.o
